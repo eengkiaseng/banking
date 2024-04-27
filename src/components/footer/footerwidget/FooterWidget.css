@@ -1,0 +1,22 @@
+.footerwidget {
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+.footerwidget .widget {
+    display: flex;
+    flex-direction: column;
+    color: var(--white-color);
+}
+.footerwidget .widget a.name {
+    font-size: 20px;
+    color: var(--white-color);
+    font-weight: 700;
+    text-decoration: unset;
+}
+.footerwidget .widget span.desc {
+    color: var(--white-color-50);
+}

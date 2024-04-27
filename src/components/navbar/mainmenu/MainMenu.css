@@ -1,0 +1,31 @@
+.mainmenu {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+.mainmenu a.name {
+    font-size: 20px;
+    font-weight: 700;
+    padding: unset;
+    text-decoration: unset;
+    color: var(--primary-color);
+}
+.mainmenu a {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: unset;
+}
+.mainmenu a:hover,
+.mainmenu a:active,
+.mainmenu a:focus {
+    color: var(--primary-color);
+}
+.mainmenu a.login {
+    margin-left: 20px;
+    padding: 12px 36px;
+    color: var(--white-color);
+    background-color: var(--danger-color);
+}

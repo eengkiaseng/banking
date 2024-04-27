@@ -1,0 +1,33 @@
+.homepage {
+    width: 100%;
+    overflow: hidden;
+}
+.homepage .homebanner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/banner/btc-transfer.jpg");
+    background-size: cover; /* Adjust the size as needed */
+    background-position: center; /* Adjust the position as needed */
+    width: 100vw; /* Full width */
+    height: 680px;
+}
+.homepage .homebanner .banner-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 220px;
+}
+.homepage .homebanner .banner-info span.title {
+    width: 380px;
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background: var(--primary-color);
+    padding: 12px 20px;
+}
+.homepage .homebanner .banner-info span.subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+}

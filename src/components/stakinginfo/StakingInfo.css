@@ -1,0 +1,21 @@
+.stakinginfo {
+    width: 100%;
+    padding: 22px 0;
+    background-color: var(--yellow-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.stakinginfo span {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.stakinginfo .rewardinfo {
+    padding: 12px 24px;
+    color: var(--white-color);
+    text-decoration: unset;
+    font-weight: 600;
+    background-color: var(--primary-color);
+}
